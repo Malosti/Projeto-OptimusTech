@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: 1440px;
+    height: 80px;
+}
+
+.container
+{
+    width: 1280px;
+    height: 44px;
+    top: 18px;
+    left: 80px;
+    padding: 0px 32px 0px 32px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo
+{   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 148px;
+    height: 26.99px;
+    top: 8.5px;
+    left: 32px;
+    gap: 8px;
+}
+
+.logo > #img-logo
+{
+    width: 27px;
+    height: 26.99;
+    color: #8E2424;
+}
+
+.logo > #nome-empresa
+{
+    width: 113px;
+    height: 24px;
+    top: 1.5px;
+    left: 35px;
+
+    font-family: 'Inter', 'Sans-serif';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #3A404E;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 362px;
+    height: 32px;
+    top: 6px;
+    left: 299px;
+    gap: 40px;
+}
+
+.content > .navbar
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 362px;
+    height: 32px;
+    gap: 32px;
+    padding: 0px;
+}
+
+.navbar > #btn-home
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 46px;
+    height: 24px;
+    top: 4px;
+}
+
+#btn-home > #home
+{
+    width: 46px;
+    height: 24px;
+    margin-right: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #667085;
+}
+
+.navbar > #btn-produtos
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70px;
+    height: 32px;
+    left: 78px;
+    padding: 4px 0px;
+}
+
+#btn-produtos > #produtos
+{
+    width: 70px;
+    height: 24px;
+    margin-right: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #667085;
+}
+
+.navbar > #btn-recursos
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 72px;
+    height: 32px;
+    left: 180px;
+    padding: 4px 0px;
+}
+
+#btn-recursos > #recurso
+{
+    width: 72px;
+    height: 24px;
+    margin-right: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #667085;
+}
+
+.navbar > #btn-sobre
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 78px;
+    height: 24px;
+    top: 4px;
+    left: 284px;
+}
+
+#btn-sobre > #sobre
+{
+    width: 78px;
+    height: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #667085;
+}
+
+.black-space
+{
+    width: 142px;
+    height: 32px;
+    top: 6px;
+    left: 780px;
+    gap: 10px;
+}
+
+.nav-actions
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 207px;
+    height: 44px;
+    left: 1041px;
+    gap: 12px;
+}
+
+.nav-actions > #btn-entrar
+{
+    background: #FFFFFF;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 83px;
+    height: 44px;
+}
+
+#btn-entrar > #btn-base-entrar
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 83px;
+    height: 44px;
+    border-radius: 8px;
+    padding: 10px 18px;
+    gap: 8px;
+}
+
+#btn-base-entrar > #btn-text-entrar
+{
+    width: 47px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+}
+
+.nav-actions > #btn-cadastrar
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 112px;
+    height: 44px;
+    left: 95px;
+    border-radius: 8px;
+}
+
+#btn-cadastrar > #btn-base-cadastrar
+{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 112px;
+    height: 44px;
+    border-radius: 8px;
+    padding: 10px 18px;
+    gap: 8px;
+    background: #8E2424;
+    border: 1px solid #8E2424;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+#btn-base-cadastrar > #btn-text-cadastrar
+{
+    width: 76px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
