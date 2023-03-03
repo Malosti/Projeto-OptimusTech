@@ -1,0 +1,67 @@
+:root
+{
+    --logo-color: #8E2424;
+    --text-color: #101828;
+    --suport-text: #667085;
+}
+
+.vagas
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1798px;
+    top: 775px;
+    padding: 96px 0px;
+    gap: 64px;
+}
+
+.vagas > .vagas-talentos
+{
+    width: 1280px;
+    height: 602px;
+    top: 96px;
+    left: 80px;
+}
+
+.vagas-talentos > #vagas-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#vagas-container > span
+{
+    color: var(--logo-color);
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    align-content: center;
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 1em;
+}
+
+#vagas-container > h1
+{
+    color: var(--text-color);
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -2%;
+    align-content: center;
+}
+
+#vagas-container > p
+{
+    margin-top: 15px;
+    color: var(--suport-text);
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 30px;
+    align-content: center;
+}
